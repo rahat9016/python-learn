@@ -8,6 +8,7 @@ def format_size(bytes_size):
             return f"{bytes_size:.2f} {unit}"
         bytes_size /= 1024
 
+
 def count_images(folder_path):
     total_count = 0
     total_size = 0
